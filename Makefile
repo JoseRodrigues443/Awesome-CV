@@ -20,6 +20,3 @@ coverletter.pdf: $(WORK_DIR)/coverletter.tex
 
 clean:
 	rm -rf $(WORK_DIR)/*.pdf
-
-install:
-	sudo apt-get install -y texlive-xetex

@@ -11,16 +11,16 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml">
-    <img alt="GitHub Actions" src="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml/badge.svg" />
+  <a href="https://github.com/joserodrigues443/actions/workflows/main.yml">
+    <img alt="GitHub Actions" src="https://github.com/joserodrigues443/actions/workflows/main.yml/badge.svg" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
+  <a href="https://raw.githubusercontent.com/joserodrigues443/master/josemiguel443/resume.pdf">
     <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
+  <a href="https://raw.githubusercontent.com/joserodrigues443/master/josemiguel443/cv.pdf">
     <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
+  <a href="https://raw.githubusercontent.com/joserodrigues443/master/josemiguel443/coverletter.pdf">
     <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
   </a>
 </div>
@@ -37,24 +37,6 @@
 Go the https://github.com/posquit0/Awesome-CV to the section Donate. He deserves it
 
 *Thank you for your support!*
-
-## Preview
-
-#### Résumé
-
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
-
-| Page. 1 | Page. 2 |
-|:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
-
-#### Cover Letter
-
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
-
-| Without Sections | With Sections |
-|:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
 
 
 ## Quick Start
@@ -80,6 +62,13 @@ At a command prompt, run
 
 ```bash
 $ xelatex {your-cv}.tex
+
+# Resume
+make resume.pdf
+
+# CV
+make cv.pdf
+
 ```
 
 Or using docker:
