@@ -3,17 +3,14 @@
     <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
   </a>
   <br />
-  Awesome CV
+  Awesome CV - Fork for JoseRodrigues443 CV
 </h1>
 
 <p align="center">
-  LaTeX template for your outstanding job application
+  My CV
 </p>
 
 <div align="center">
-  <a href="https://www.paypal.me/posquit0">
-    <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg" />
-  </a>
   <a href="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml">
     <img alt="GitHub Actions" src="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml/badge.svg" />
   </a>
