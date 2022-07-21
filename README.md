@@ -11,17 +11,8 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/joserodrigues443/actions/workflows/main.yml">
-    <img alt="GitHub Actions" src="https://github.com/joserodrigues443/actions/workflows/main.yml/badge.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/joserodrigues443/master/josemiguel443/resume.pdf">
-    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/joserodrigues443/master/josemiguel443/cv.pdf">
-    <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/joserodrigues443/master/josemiguel443/coverletter.pdf">
-    <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
+  <a href="https://github.com/JoseRodrigues443/Awesome-CV/actions/workflows/main.yml">
+    <img alt="GitHub Actions" src="https://github.com/JoseRodrigues443/Awesome-CV/actions/workflows/main.yml/badge.svg" />
   </a>
 </div>
 
