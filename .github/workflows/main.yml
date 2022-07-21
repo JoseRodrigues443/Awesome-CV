@@ -33,7 +33,7 @@ jobs:
           path: josemiguel443/*.pdf
 
 
-      - name: Pushes CV file
+      - name: Pushes CV/Resume/coverletter
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -43,4 +43,4 @@ jobs:
           destination_folder: ${{ matrix.dir }}
           user_email: 'josemiguel443@email.com'
           user_name: 'JoseRodrigues443'
-          commit_message: 'Updated CV'
+          commit_message: 'Updated CV/Resume/coverletter'
