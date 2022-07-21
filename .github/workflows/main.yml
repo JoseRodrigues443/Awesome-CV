@@ -29,7 +29,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_file: josemiguel443/*.pdf
+          source_file: josemiguel443/resume.pdf
           destination_repo: 'JoseRodrigues443/JoseRodrigues443'
           destination_folder: './'
           user_email: 'josemiguel443@email.com'
