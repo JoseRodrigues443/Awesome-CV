@@ -38,7 +38,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_file: josemiguel443/${{ matrix.files }}
+          source_file: josemiguel443/${{ matrix.files }}.pdf
           destination_repo: ${{ matrix.repo }}
           destination_folder: ${{ matrix.dir }}
           user_email: 'josemiguel443@email.com'
