@@ -9,6 +9,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        files: [resume, cv, coverletter]
+        include:
+          - repo: JoseRodrigues443/JoseRodrigues443
+            dir: ./
+          - repo: JoseRodrigues443/joserodrigues443.github.io
+            dir: static/files/cv.pdf
+
     container: texlive/texlive:latest
 
     steps:
@@ -29,9 +38,9 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_file: josemiguel443/resume.pdf
-          destination_repo: 'JoseRodrigues443/JoseRodrigues443'
-          destination_folder: './'
+          source_file: josemiguel443/${{ matrix.files }}
+          destination_repo: ${{ matrix.repo }}
+          destination_folder: ${{ matrix.dir }}
           user_email: 'josemiguel443@email.com'
           user_name: 'JoseRodrigues443'
           commit_message: 'Updated CV'
