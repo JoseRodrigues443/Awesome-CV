@@ -14,9 +14,9 @@ jobs:
         files: [resume, cv, coverletter]
         include:
           - repo: JoseRodrigues443/JoseRodrigues443
-            dir: ./
+            dir: .
           - repo: JoseRodrigues443/joserodrigues443.github.io
-            dir: static/files/cv.pdf
+            dir: static/files
 
     container: texlive/texlive:latest
 
