@@ -12,13 +12,26 @@ jobs:
     container: texlive/texlive:latest
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-    - name: Compile
-      run: make
+      - name: Compile
+        run: make
 
-    - uses: actions/upload-artifact@v3
-      with:
-        name: josemiguel443
-        path: josemiguel443/*.pdf
+      - uses: actions/upload-artifact@v3
+        with:
+          name: josemiguel443
+          path: josemiguel443/*.pdf
+
+
+      - name: Pushes CV file
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_file: 'josemiguel443/*.pdf'
+          destination_repo: 'JoseRodrigues443/JoseRodrigues443'
+          destination_folder: './'
+          user_email: 'josemiguel443@email.com'
+          user_name: 'JoseRodrigues443'
+          commit_message: 'Updated CV'
